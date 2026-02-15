@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a responsive landing page for “Next Level RP” with a Play Now (SAMP protocol) button, Discord invite button, and simple feature/status sections.",
+  "architectural_notes": [
+    "Single-page static HTML/CSS landing page with minimal inline JavaScript for status text."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-build-a-responsive-single-page-landing-page-for-next-level-rp-that-recreates-the-structure-and-content-from-the-provided-html-a-prominent-header-title-a-cta-button-row-and-a-section-containing-two-cards-server-status-and-custom-skins-vehicles",
+      "title": "Build a responsive single-page landing page for “Next Level RP” that recreates the structure and content from the provided HTML: a prominent header title, a CTA button row, and a section containing two cards (Server Status and Custom Skins & Vehicles).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-two-cta-buttons-with-the-exact-link-targets-from-the-provided-html-play-now-navigates-to-samp-15-235-185-4-7785-and-join-discord-navigates-to-https-discord-gg-rzj3nmb7",
+      "title": "Implement the two CTA buttons with the exact link targets from the provided HTML: “PLAY NOW” navigates to `samp://15.235.185.4:7785` and “JOIN DISCORD” navigates to `https://discord.gg/Rzj3NMB7`.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-server-status-ui-element-that-initially-displays-checking-and-then-updates-to-online-on-the-client-side-mirroring-the-behavior-of-the-provided-inline-javascript",
+      "title": "Create a “Server Status” UI element that initially displays “Checking...” and then updates to “ONLINE” on the client side (mirroring the behavior of the provided inline JavaScript).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-theme-inspired-by-the-provided-design-dark-navy-page-background-bright-cyan-accent-color-centered-layout-rounded-cards-with-subtle-translucent-backgrounds-and-modern-typography-ensure-it-remains-readable-and-looks-good-on-mobile-and-desktop",
+      "title": "Apply a cohesive visual theme inspired by the provided design: dark navy page background, bright cyan accent color, centered layout, rounded cards with subtle translucent backgrounds, and modern typography. Ensure it remains readable and looks good on mobile and desktop.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create “Next Level RP” responsive landing page with header, themed styling, and section cards",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add CTA buttons: “PLAY NOW” linking to samp://15.235.185.4:7785 and “JOIN DISCORD” linking to https://discord.gg/Rzj3NMB7",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement Server Status display component (currently sets status text to ONLINE via JS)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add content card for “Custom Skins & Vehicles” description",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Next Level RP",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the Next Level RP landing page with header, CTA buttons, feature cards, and footer in a centered responsive layout.",
+  "frontend/src/components/NextLevel/Header.tsx": "Header component displaying the \"NEXT LEVEL RP\" title with cyan color and glow animation.",
+  "frontend/src/components/NextLevel/CtaButtons.tsx": "CTA buttons component with \"PLAY NOW\" (SAMP protocol link) and \"JOIN DISCORD\" buttons with hover effects and accessibility features.",
+  "frontend/src/components/NextLevel/CardShell.tsx": "Reusable card wrapper component with translucent glass effect, rounded corners, and hover transitions.",
+  "frontend/src/components/NextLevel/ServerStatus.tsx": "Server status component that displays \"Checking...\" initially and updates to \"ONLINE\" after mount.",
+  "frontend/src/components/NextLevel/Footer.tsx": "Footer component with copyright notice and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles with dark navy background (#0B1D3A equivalent), cyan accent (#00BFFF equivalent) using OKLCH color system, custom utility classes for theme colors, and glow animations.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom navy and cyan colors matching the Next Level RP theme.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks (currently empty as no backend queries are needed)."
+}

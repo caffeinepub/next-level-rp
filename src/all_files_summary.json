@@ -1,0 +1,20 @@
+{
+  "backend/main.mo": "Empty Motoko canister actor.",
+  "feature_evidence.json": "Feature evidence report with an empty features list.",
+  "frontend-file-summaries.txt": "Contains prewritten summaries for various frontend components and files.",
+  "frontend/index.css": "Tailwind base styles and OKLCH CSS variables for theme colors and utilities.",
+  "frontend/index.html": "Basic HTML entry point mounting the React app.",
+  "frontend/src/App.tsx": "Main React layout rendering header, CTA buttons, feature cards, and footer.",
+  "frontend/src/components/NextLevel/CardShell.tsx": "Reusable glass-style card wrapper component.",
+  "frontend/src/components/NextLevel/CtaButtons.tsx": "CTA buttons linking to SAMP server and Discord with styled Button components.",
+  "frontend/src/components/NextLevel/Footer.tsx": "Footer with dynamic year and Caffeine.ai attribution link.",
+  "frontend/src/components/NextLevel/Header.tsx": "Centered page header displaying the site title with glow animation.",
+  "frontend/src/components/NextLevel/ServerStatus.tsx": "Component that simulates checking and displays server status as ONLINE.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages a backend actor based on Internet Identity.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Context and provider managing Internet Identity auth, login, and identity state.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder for future React Query backend hooks.",
+  "frontend/src/index.css": "Tailwind base plus custom OKLCH navy/cyan theme and utility classes.",
+  "frontend/src/main.tsx": "App bootstrap wiring React Query, InternetIdentityProvider, and global styles.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with OKLCH theming, utilities, and plugins.",
+  "project_state.json": "Defines project metadata and current state for building a responsive landing page with CTA buttons, status logic, and themed UI. Lists existing features, pending requests, and architectural notes for the “Next Level RP” site."
+}

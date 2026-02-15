@@ -1,0 +1,28 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-15T17:42:47.995Z",
+  "summary": "The diff only updates `project_state.json` metadata and does not implement any UI/code changes to connect the “Play Now” button to the SA-MP server. It also introduces several landing-page feature definitions that were not requested in the BuildRequest (which lists no requirements).",
+  "missing_requirements": [
+    {
+      "requirement": "Implement a “Play Now” button that connects to the SA-MP server using the exact URL `samp://15.235.185.4:7785`.",
+      "reason": "No frontend/UI source files were modified; only `project_state.json` was updated, so the button behavior cannot have been implemented.",
+      "evidence": [
+        "project_state.json (only modified file)"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Planned/defined work to build a responsive single-page “Next Level RP” landing page with header, CTA row, and feature cards (Server Status, Custom Skins & Vehicles), including themed styling and client-side status behavior.",
+      "reason": "The BuildRequest specifies no requirements beyond ensuring the Play Now button connects to the given SA-MP URL and includes constraints/non-goals; the diff adds multiple unrequested feature entries (REQ-1..REQ-4) and new_feature_requests AR-1..AR-4 in project metadata.",
+      "evidence": [
+        "project_state.json (existing_features REQ-1..REQ-4; new_feature_requests AR-1..AR-4)"
+      ]
+    }
+  ],
+  "confidence": 0.74,
+  "changed_files": [
+    "project_state.json"
+  ]
+}

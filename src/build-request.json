@@ -1,0 +1,20 @@
+{
+  "kind": "build_request",
+  "title": "Play Now button connects to SA-MP server 15.235.185.4:7785",
+  "priority": "normal",
+  "requirements": [],
+  "constraints": [
+    "Do not modify any files under frontend/src/components/ui (read-only UI components).",
+    "Do not modify files listed in frontend.immutablePaths.",
+    "Maintain the existing SA-MP connect URL exactly as: samp://15.235.185.4:7785.",
+    "Use English for any user-facing text."
+  ],
+  "nonGoals": [
+    "Adding a backend/server-status API (status remains client-side as currently implemented).",
+    "Adding additional CTAs or changing the Discord invite link."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
